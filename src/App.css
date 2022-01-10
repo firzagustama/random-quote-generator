@@ -1,3 +1,16 @@
+body {
+  background-color: rgb(52, 34, 36);
+  color: rgb(52, 34, 36);
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  list-style: none;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -24,6 +37,61 @@
 
 .App-link {
   color: rgb(112, 76, 182);
+}
+
+#new-quote {
+  float: right;
+}
+
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+
+.quote-text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.quote-author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.buttons {
+  width: 450px;
+  margin: auto;
+  display: block;
+}
+
+.button {
+  float: left;
+  padding: 0px;
+  text-align: center;
+  font-size: 1em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  outline: none;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgb(52, 34, 36);
 }
 
 @keyframes App-logo-float {
